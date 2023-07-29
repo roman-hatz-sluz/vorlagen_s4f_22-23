@@ -1,0 +1,30 @@
+/* CSS Code that is the same for all web pages */
+
+/* The .webpage class sets up the layout for the entire page */
+.webpage {
+    display: flex; /* Use flexbox to create a flexible layout */
+    flex-direction: column; /* Arrange elements in a vertical column */
+    /* min-height ensures that the footer stays at the bottom of the page regardless of content height */
+    min-height: 100vh; /* 100vh = 100% of viewport height */
+    /* padding and margin: 0; ensures it fills the entire 100vh height without any extra spacing */
+    padding: 0;
+    margin: 0;
+}
+
+/* The .header class styles the header section */
+.header {
+    background-color: #ffd7b5; /* Set the background color to a light peach */
+    height: 100px; /* Fixed height for the header */
+}
+
+/* The .content class styles the main content section */
+.content {
+    flex-grow: 1; /* Allow the content section to grow and fill the available space */
+    background-color: #ffb38a; /* Set the background color to a light orange */
+}
+
+/* The .footer class styles the footer section */
+.footer {
+    background-color: #ff9248; /* Set the background color to a darker orange */
+    height: 50px; /* Fixed height for the footer */
+}
