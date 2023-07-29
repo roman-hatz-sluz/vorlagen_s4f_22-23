@@ -3,6 +3,7 @@
 Dieses GitHub Repository ist in Lernschritte eingeteilt. 
 Ein Branch entspricht einem Schritt (step01, step02, ..). 
 
+## Step 1
 
 ### Installieren Sie folgende Software
 * node
@@ -26,7 +27,7 @@ Testen Sie die Installation mit
 ### Asset Pipeline mit Parcel 
 * https://parceljs.org/ 
 
-### Ziele 
+### Ziele  
 * Frontend Setup mit Parcel
 * Ausgabe einer zufälligen Zahl zwischen 1 und 100 im Browser  
 
